@@ -20,7 +20,7 @@ public class Main {
 //            System.out.println(p);
 //        }
 
-        //parametrizar el comportamiento uso de <Predicate<Persona> criterio>
+        //parametrizar el comportamiento - uso de <Predicate<Persona> criterio>
         List<Persona> empiezaConE = ps.filtroPersonas(ps.listaDePersonas(), p -> p.empiezaCon("E"));
         List<Persona> nombrePar = ps.filtroPersonas(ps.listaDePersonas(), p -> p.nombrePar());
 
